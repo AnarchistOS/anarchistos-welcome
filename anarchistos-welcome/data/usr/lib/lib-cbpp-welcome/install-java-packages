@@ -1,3 +1,0 @@
-installPage $"Java Support" \
-    $"By default, CrunchBangPlusPlus does not come with a Java Runtime Environment. Would you like to install Java support now?" \
-    'cbpp-meta-java'

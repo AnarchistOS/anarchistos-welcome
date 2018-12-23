@@ -1,3 +1,0 @@
-installPage $"LibreOffice" \
-    $"By default, CrunchBangPlusPlus comes preinstalled with some lightweight Office applications, AbiWord and Gnumeric. Would you like to install the more feature rich office suite, LibreOffice?" \
-    'cbpp-meta-libreoffice'
