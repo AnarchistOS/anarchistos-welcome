@@ -1,3 +1,3 @@
 installPage $"LibreOffice" \
-    $"By default, CrunchBangPlusPlus comes preinstalled with some lightweight Office applications, AbiWord and Gnumeric. Would you like to install the more feature rich office suite, LibreOffice?" \
-    'cbpp-meta-libreoffice'
+    $"By default, AnarchistOS does not come with Office applications. Would you like to install the more feature rich office suite, LibreOffice?" \
+    'anarchistos-meta-libreoffice'

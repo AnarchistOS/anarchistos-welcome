@@ -1,9 +1,9 @@
-anarchistos-welcome (1.1) unstable; urgency=low
+anarchistos-welcome (1.1) crowbar; urgency=low
 
   * Repackaged from cbpp-welcome.
-  * Initial release for AnarchistOS
+  * Ported to AnarchistOS
   
- -- AreYouLoco? <areyouloco@paranoici.org>  Sun, 23 Dec 2018 11:52:53 +0100
+ -- AreYouLoco? <areyouloco@paranoici.org>  Sun, 23 Dec 2018 14:53:14 +0100
 
 cbpp-welcome (1.0) unstable; urgency=low
 
