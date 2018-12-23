@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FILE_PO='anarchistos-welcome.po'
+
+bash --dump-po-strings ../anarchistos-welcome > "$FILE_PO"
+
+for curFile in ../lib-anarchistos-welcome/*; do
+    bash --dump-po-strings "$curFile" >> "$FILE_PO"
+done
+
+exit 0

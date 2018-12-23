@@ -1,0 +1,104 @@
+Source: anarchistos-welcome
+Section: misc
+Priority: extra
+Maintainer: AreYouLoco? <areyouloco@paranoici.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://www.anarchistos.tk/
+
+Package: anarchistos-welcome
+Architecture: all
+Depends: 
+ ${shlibs:Depends}, 
+ ${misc:Depends}, 
+ terminator, 
+ anarchistos-pipemenus
+Description: AnarchistOS welcome script.
+ Optional post installation script for AnarchistOS.
+
+Package: anarchistos-meta-printer-support
+Architecture: all
+Depends: 
+ ${misc:Depends},
+ cups, 
+ cups-pdf,
+ system-config-printer,
+ printer-driver-hpijs
+Description: AnarchistOS printer support meta package
+ Installs various printer packages to enable printer support.
+
+Package: anarchistos-meta-java
+Architecture: all
+Depends: ${misc:Depends}, openjdk-7-jre, icedtea-7-plugin
+Description: AnarchistOS java meta package
+ Installs various java packages.
+
+Package: anarchistos-meta-libreoffice
+Architecture: all
+Depends: ${misc:Depends}, libreoffice, libreoffice-gtk
+Description: AnarchistOS libreoffice meta package
+ Installs libreoffice and associated gtk theme.
+
+Package: anarchistos-meta-vcs
+Architecture: all
+Depends:
+ ${misc:Depends},
+ git,
+ git-gui,
+ git-cvs,
+ git-svn,
+ git-email,
+ mercurial,
+ subversion,
+ subversion-tools,
+ bzr,
+ bzrtools,
+ cvs
+Description: AnarchistOS version control meta package
+ Installs various version control tools.
+
+Package: anarchistos-meta-ssh
+Architecture: all
+Depends: ${misc:Depends}, openssh-server, openssh-client
+Description: AnarchistOS ssh meta package
+ Installs ssh server and various ssh tools.
+
+Package: anarchistos-meta-lamp
+Architecture: all
+Depends:
+ ${misc:Depends},
+ apache2,
+ mysql-server,
+ php5,
+ php-pear,
+ php5-gd,
+ php5-mysql,
+ php5-imagick,
+ php5-curl,
+ curl,
+ phpmyadmin,
+ rsync,
+ cronolog
+Description: AnarchistOS lamp meta package
+ Installs various web server tools.
+
+Package: anarchistos-meta-packaging
+Architecture: all
+Depends:
+ ${misc:Depends},
+ build-essential,
+ debhelper,
+ cdbs,
+ dh-make,
+ diffutils,
+ patch,
+ gnupg,
+ fakeroot,
+ lintian,
+ devscripts,
+ pbuilder,
+ dpatch,
+ dput,
+ quilt
+Description: AnarchistOS packaging meta package
+ Installs various Debian packaging tools.
